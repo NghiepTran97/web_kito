@@ -1,0 +1,87 @@
+.grid {
+    .cta {
+        width: 100%;
+        margin-top: 70px;
+        .cta-content {
+            padding: 112px 0 0 90px;
+            background-color: #E5F8FD;
+            .label {
+                background-color: #E6E6EF;
+                font-family: 'Open Sans';
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #EC80A0;
+                padding: 7px 0;
+                border-radius: 5px;
+                width: 106px;
+            }
+            h2 {
+                margin-top: 20px;
+                width: 548px;
+                font-family: 'Sansita';
+                font-size: 54px;
+                font-weight: 700;
+                line-height: 70px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+            button {
+                margin-top: 40px;
+                font-family: 'Open Sans';
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 26px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #FFFFFF;
+                background-color: #EC80A0;
+                border: none;
+                border-radius: 10px;
+                gap: 10px;
+                padding: 17px 0;
+                width: 224px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+    .cta {
+        margin-top: 50px !important;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        .cta-content {
+            height: 369px !important;
+            padding: 0 !important;
+            .label {
+                margin: 60px auto 0 auto;
+                width: 147px !important;
+                height: 36px !important;
+            }
+            h2 {
+                margin: 15px auto 0 auto !important;
+                width: 305px !important;
+                font-size: 30px !important;
+                line-height: 40px !important;
+                text-align: center !important;
+            }
+            button {
+                margin: 30px auto 0 122px !important;
+                width: 183px !important;
+                height: 48px !important;
+                padding: 0 !important;
+                font-size: 17px !important;
+                line-height: 22px !important;
+                letter-spacing: 0.1em !important;
+            }
+        }
+        .video-box {
+            img {
+                width: 428px !important;
+                height: 364px !important;
+            }
+        }
+    }
+}

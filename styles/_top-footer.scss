@@ -1,0 +1,98 @@
+.footer {
+    margin-top: 100px;
+    .top-footer {
+        padding-bottom: 70px;
+        border-bottom: 1px solid #E8E7E7;
+        h1 {
+            font-family: 'Sansita';
+            font-size: 54px;
+            font-weight: 800;
+            line-height: 70px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #1A1114;
+            margin-bottom: 0;
+        }
+        .subscribe {
+            p {
+                width: 206px;
+                font-family: 'Open Sans';
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #1A1114;
+                margin-bottom: 0;
+                margin-right: 31px;
+            }
+            .form-email {
+                .input-email {
+                    padding-left: 20px;
+                    gap: 9px;
+                    width: 330px;
+                    height: 50px;
+                    border: 1px solid #EC80A0;
+                    border-radius: 10px 0 0 10px;
+                    font-family: 'Open Sans';
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #5E585A;
+                }
+                button {
+                    width: 166px;
+                    height: 50px;
+                    font-family: 'Open Sans';
+                    font-size: 17px;
+                    font-weight: 700;
+                    line-height: 22px;
+                    letter-spacing: 0.1em;
+                    text-align: left;
+                    color: #FFFFFF;
+                    background-color: #EC80A0;
+                    border-radius: 0 10px 10px 0;
+                    border: none;
+                }   
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer {
+        margin-top: 60px !important;
+        .top-footer  {
+            width: 388px !important;
+            border: none !important;
+            flex-wrap: wrap !important;
+            margin: 0 auto;
+            padding-bottom: 0 !important;
+            h1 {
+                font-size: 30px !important;
+                line-height: 55px !important;
+                text-align: center !important;
+                margin: 0 auto;
+            }
+            .subscribe {
+                margin-top: 30px;
+                flex-wrap: wrap;
+                p {
+                    width: 356px !important;
+                    margin: 0 auto;
+                }
+                .form-email {
+                    margin-top: 20px;
+                    .input-email {
+                        width: 242px !important;
+                    }
+                    button {
+                        width: 146px !important;
+                    }
+                }
+            }
+        }
+    }
+}

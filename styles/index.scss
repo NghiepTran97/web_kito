@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+.grid {
+    width: 1410px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 576px) {
+    .grid {
+        width: 428px !important;
+        margin: 0 auto;
+    }
+}
+@import 'header';
+@import 'page-title';
+@import 'cta';
+@import 'dashboard';
+@import 'about';
+@import 'ourteam';
+@import 'benifit';
+@import 'top-footer';
+@import 'body-footer';
+@import 'bottom-footer';

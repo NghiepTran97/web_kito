@@ -1,0 +1,149 @@
+.header {
+    .top-header {
+        background-color: #FDF2F6;
+        font-family: 'Open Sans';
+        padding: 7px 0;
+        .grid {
+            .logo, .mega-menu{
+                display: none;
+            }
+            .top-header1{
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #5E5558;
+            }
+            .top-header2 {
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #C81B10;
+            }
+            .language-box {
+                gap: 15px;
+                .language {
+                    gap: 5px;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0em;
+                    text-align: right;
+                    color: #1A1114;
+                    .box-icon-down {
+                        width: 15px;
+                    }
+                }
+                .line {
+                    content: "";
+                    border-right: 1px solid #E6DBDF;
+                    height: 20px;
+                }
+            }
+        }
+        
+    }
+    .nav-header {
+        position: relative;
+        padding: 42px 0;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 20px 0px #1A11141A;
+        .grid {
+            ul {
+                list-style: none;
+                margin-bottom: 0;
+                padding-left: 0;
+            }
+            .menu-nav {
+                gap: 42px;
+                .menu-items {
+                    font-family: 'Open Sans';
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                }
+            }
+            .nav-icon-group {
+                gap: 30px;
+                .nav-items-icon {
+                    position: relative;
+                }
+                .nav-items-icon span{
+                    position: absolute;
+                    height: 20px;
+                    width: 20px;
+                    border-radius: 50%;
+                    background-color: #1A1114;
+                    color: #FFFFFF;
+                    top: 50%;
+                    left: 50%;
+                    font-family: Open Sans;
+                    font-size: 10px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                }
+            }
+        }
+        p {
+            position: absolute;
+            font-family: 'Sansita', sans-serif;                                  
+            font-size: 54px;
+            font-weight: 800;
+            line-height: 70px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #1A1114;
+            top: calc(50% - 35px);
+            right: calc(50% - 57px);
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .top-header {
+        height: 75px !important;
+        background: #FFFFFF !important;
+        box-shadow: 0px 2px 20px 0px #1A11141A;
+        padding: 0 !important;
+        .grid {
+            width: 428px !important;
+            padding: 0 20px;
+            .language-box, .top-header2, .top-header1 {
+                display: none !important;
+            }
+            .logo {
+                display: block !important;
+                margin-top: 5px;
+                h6 {
+                    font-family: 'Sansita';
+                    font-size: 30px;
+                    font-weight: 800;
+                    line-height: 55px;
+                    text-align: center;
+                }
+            }
+            .mega-menu {
+                margin-top: 10px;
+                display: flex !important;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    .nav-header {
+        display: none !important;
+    }
+}
+.header-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}

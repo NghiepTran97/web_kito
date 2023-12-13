@@ -1,0 +1,90 @@
+.about {
+    width: 100%;
+    margin-top: 100px;
+    .image-about {
+        gap: 30px;
+    }
+    .content-about {
+        padding-top: 88px;
+        margin: auto 0;
+        width: 450px;
+        height: 550px;
+        border-radius: 20px;
+        background: #FDF4F7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        h2 {
+            width: 368px;
+            font-family: 'Sansita';
+            font-size: 54px;
+            font-weight: 700;
+            line-height: 70px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #1A1114;
+        }
+        p {
+            width: 323px;
+            font-family: 'Open Sans';
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #0A1E23;
+        }
+        button {
+            padding: 14px 30px 14px 30px;
+            border-radius: 10px;
+            background-color: #E76088;
+            font-family: 'Open Sans';
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0.1em;
+            text-align: center;
+            color: #ffffff;
+            border: none;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about {
+        margin-top: 60px !important;
+        flex-direction: column !important;
+        .image-about {
+            gap: 14px !important;
+            margin: 0 auto !important;
+            .image-box:first-child {
+                img {
+                    width: 187px !important;
+                    height: 230px !important;
+                }
+            }
+            .image-box:last-child {
+                img {
+                    width: 187px !important;
+                    height: 280px !important;
+                }
+            }
+        }
+        .content-about {
+            width: 388px !important;
+            height: 356px !important;
+            padding-top: 30px !important;
+            gap: 20px !important;
+            margin: 20px auto 0 auto !important;
+            h2 {
+                width: 245px !important;
+                font-size: 36px !important;
+                line-height: 47px !important;
+            }
+            p {
+                width: 348px !important;
+            }
+        }
+    }
+}

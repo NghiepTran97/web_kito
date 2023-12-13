@@ -1,0 +1,98 @@
+.body-footer {
+    margin-top: 70px;
+    .body-footer-items {
+        h6 {
+            font-family: 'Sansita';
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #1A1114;
+            margin-bottom: 30px;
+        }
+        p {
+            font-family: 'Open Sans';
+            color: #1A1114;
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+    .contact-info {
+        width: 213px;
+        .contact-info-items {
+            display: flex;
+            margin-bottom: 20px;
+            .img-contact-info {
+                width: 20px;
+                line-height: 26px;
+            }
+            p {
+                line-height: 26px;
+                text-align: left;
+                margin-left: 25px;
+            }
+        }
+        .address {
+            p {
+                width: 168px;
+            }
+        }
+    }
+    .quick-link {
+        width: 124px;
+        margin-left: 147px;
+        p {
+            line-height: 42px;
+            text-align: left;
+        }
+    }
+    .information {
+        width: 129px;
+        margin-left: 236px;
+        p {
+            line-height: 42px;
+            text-align: left;
+        }
+    }
+    .follow-us {
+        width: 107px;
+        margin-left: 231px;
+        .right-follow-box {
+            margin-left: 20px;
+            p {
+                line-height: 42px;
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .body-footer {
+        width: 388px;
+        flex-direction: column !important;
+        margin: 40px auto 0 auto !important;
+        gap: 40px !important;
+        .body-footer-items {
+            margin-left: 0 !important;
+        }
+        .contact-info {
+            width: 203px !important;
+            h6 {
+                margin-bottom: 20px !important;
+            }
+            .contact-info-items {
+                margin-bottom: 15px;
+                p {
+                    margin-left: 15px !important;
+                }
+            }
+        }
+        .quick-link, .information, .follow-us {
+            h6 {
+                margin-bottom: 20px !important;
+            }
+        }
+    }
+}

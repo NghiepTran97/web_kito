@@ -1,0 +1,22 @@
+.bottom-footer {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    border-top: 1px solid #E8E7E7;
+    padding-top: 27px;
+    text-align: center;
+    p {
+        font-family: 'Open Sans';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #1A1114;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bottom-footer {
+        width: 388px !important;
+        margin: 40px auto 20px auto !important;
+        padding-top: 15px !important; 
+    }
+}

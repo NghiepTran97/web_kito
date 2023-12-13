@@ -1,0 +1,82 @@
+.ourteam {
+    width: 100%;
+    margin-top: 100px;
+    h2 {
+        font-family: 'Sansita';
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #1A1114;
+        margin-bottom: 50px;
+    }
+    .ourteam-nav{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        .ourteam-items {
+            padding-top: 40px;
+            width: 330px;
+            height: 390px;
+            box-shadow: 0px 4px 30px 0px #0A1E231A;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .avatar-box {
+                margin-bottom: 25px;
+                width: 130px;
+                height: 130px;
+                border-radius: 50%;
+                overflow: hidden;
+            }
+            .name {
+                margin-bottom: 5px;
+                font-family: 'Barlow';
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 31px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #1A1114;
+            }
+            .levels {
+                margin-bottom: 10px;
+                font-family: 'Open Sans';
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #8C8889;
+            }
+            .info {
+                margin-bottom: 15px;
+                width: 270px;
+                font-family: 'Open Sans';
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #0A1E23;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px)  {
+    .ourteam {
+        margin-top: 60px !important;
+        .ourteam-nav {
+            flex-wrap: wrap !important;
+            gap: 20px;
+            .ourteam-items {
+                width: 388px !important;
+                height: 390px !important;
+                margin: 0 auto;
+            }
+        }
+    }
+}
